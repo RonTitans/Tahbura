@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm install:*)",
+      "Bash(claude mcp add-json filesystem \"{\"\"command\"\": \"\"npx\"\", \"\"args\"\": [\"\"@modelcontextprotocol/server-filesystem\"\", \"\"F:\\\\ClaudeCode\"\"], \"\"env\"\": {\"\"NODE_ENV\"\": \"\"production\"\"}}\")",
+      "Bash(claude mcp add filesystem npx @modelcontextprotocol/server-filesystem \"F:\\ClaudeCode\")",
+      "Bash(claude mcp:*)",
+      "Bash(npx @modelcontextprotocol/server-filesystem:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(claude /agents)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(mv:*)",
+      "Bash(npx create-react-app:*)",
+      "Bash(npm create:*)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(dir:*)",
+      "Bash(npm run dev:*)",
+      "Bash(python:*)",
+      "Bash(node:*)",
+      "Bash(npm run build:*)",
+      "Bash(timeout 10 npm run dev)",
+      "Bash(rm:*)",
+      "Bash(npm run setup-db:*)",
+      "Bash(curl:*)",
+      "Bash(timeout 15 npm run dev)",
+      "Bash(scriptssetup-database.bat)",
+      "Bash(start cmd /c \"cd backend && npm start\")",
+      "Bash(timeout:*)",
+      "Bash(start cmd /c \"cd frontend && npm run dev\")",
+      "Bash(pkill:*)",
+      "Bash(true)",
+      "Bash(cp:*)"
+    ],
+    "deny": []
+  }
+}
